@@ -22,8 +22,6 @@ pipeline {
       }
     }
 
-   
-
   }
   tools {
     maven 'maven'
@@ -32,6 +30,6 @@ pipeline {
     always {
       echo 'this pipeline has completed...'
     }
+
   }
 }
-
