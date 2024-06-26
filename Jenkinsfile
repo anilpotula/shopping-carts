@@ -26,7 +26,7 @@ pipeline {
 
   }
   tools {
-    maven'maven'
+    maven 'maven'
   }
   post {
     always {
